@@ -1,0 +1,34 @@
+﻿CyberArkOracleAPI/
+├── CyberArkOracleAPI.sln
+├── CyberArkOracleAPI/              # Projeto Web API
+│   ├── Controllers/
+│   │   ├── AuthController.cs
+│   │   ├── OracleQueryController.cs
+│   │   └── HealthController.cs
+│   ├── Services/
+│   │   ├── IAuthenticationService.cs
+│   │   ├── AuthenticationService.cs
+│   │   ├── ICyberArkService.cs
+│   │   ├── CyberArkService.cs
+│   │   ├── IOracleService.cs
+│   │   ├── OracleService.cs
+│   │   ├── IAuditService.cs
+│   │   └── AuditService.cs
+│   ├── Models/
+│   │   ├── LoginRequest.cs
+│   │   ├── LoginResponse.cs
+│   │   ├── QueryRequest.cs
+│   │   ├── QueryResponse.cs
+│   │   └── AuditLog.cs
+│   ├── Security/
+│   │   ├── JwtSettings.cs
+│   │   └── PermissionService.cs
+│   ├── Middleware/
+│   │   ├── SecurityHeadersMiddleware.cs
+│   │   └── RequestLoggingMiddleware.cs
+│   ├── Configuration/
+│   │   └── PredefinedQueries.cs
+│   ├── Program.cs
+│   ├── appsettings.json
+│   └── CyberArkOracleAPI.csproj
+└── CyberArkOracleAPI.Tests/        # Projeto de Testes
